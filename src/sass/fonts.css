@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'AvantGardeCTT';
+    src: url('/fonts/AvantGardeCTT.eot');
+    src: url('/fonts/AvantGardeCTT.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/AvantGardeCTT.woff2') format('woff2'),
+        url('/fonts/AvantGardeCTT.woff') format('woff'),
+        url('/fonts/AvantGardeCTT.ttf') format('truetype'),
+        url('/fonts/AvantGardeCTT.svg#AvantGardeCTT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvantGardeCTT';
+    src: url('/fonts/AvantGardeCTT-Bold.eot');
+    src: url('/fonts/AvantGardeCTT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/AvantGardeCTT-Bold.woff2') format('woff2'),
+        url('/fonts/AvantGardeCTT-Bold.woff') format('woff'),
+        url('/fonts/AvantGardeCTT-Bold.ttf') format('truetype'),
+        url('/fonts/AvantGardeCTT-Bold.svg#AvantGardeCTT-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
