@@ -310,16 +310,16 @@ html *::-webkit-scrollbar-thumb {
 
 @font-face {
   font-family: 'AvantGardeCTT';
-  src: url("../fonts/AvantGardeCTT.eot");
-  src: url("../fonts/AvantGardeCTT.eot?#iefix") format("embedded-opentype"), url("../fonts/AvantGardeCTT.woff2") format("woff2"), url("../fonts/AvantGardeCTT.woff") format("woff"), url("../fonts/AvantGardeCTT.ttf") format("truetype"), url("../fonts/AvantGardeCTT.svg#AvantGardeCTT") format("svg");
+  src: url("/fonts/AvantGardeCTT.eot");
+  src: url("/fonts/AvantGardeCTT.eot?#iefix") format("embedded-opentype"), url("/fonts/AvantGardeCTT.woff2") format("woff2"), url("/fonts/AvantGardeCTT.woff") format("woff"), url("/fonts/AvantGardeCTT.ttf") format("truetype"), url("/fonts/AvantGardeCTT.svg#AvantGardeCTT") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'AvantGardeCTT';
-  src: url("../fonts/AvantGardeCTT-Bold.eot");
-  src: url("../fonts/AvantGardeCTT-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AvantGardeCTT-Bold.woff2") format("woff2"), url("../fonts/AvantGardeCTT-Bold.woff") format("woff"), url("../fonts/AvantGardeCTT-Bold.ttf") format("truetype"), url("../fonts/AvantGardeCTT-Bold.svg#AvantGardeCTT-Bold") format("svg");
+  src: url("/fonts/AvantGardeCTT-Bold.eot");
+  src: url("/fonts/AvantGardeCTT-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/AvantGardeCTT-Bold.woff2") format("woff2"), url("/fonts/AvantGardeCTT-Bold.woff") format("woff"), url("/fonts/AvantGardeCTT-Bold.ttf") format("truetype"), url("/fonts/AvantGardeCTT-Bold.svg#AvantGardeCTT-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -368,7 +368,7 @@ html *::-webkit-scrollbar-thumb {
   margin-right: 11px; }
 
 .custom-checkbox:checked + label::before {
-  background: url(../img/check2.png) no-repeat center center;
+  background: url(/img/check2.png) no-repeat center center;
   background-size: 8px; }
 
 .swiper-pagination {
@@ -479,7 +479,7 @@ html *::-webkit-scrollbar-thumb {
   height: 5px;
   text-align: center;
   vertical-align: top;
-  background: url(../img/down-arrow.png) no-repeat !important;
+  background: url(/img/down-arrow.png) no-repeat !important;
   position: absolute;
   right: -16px;
   top: 8px; }
@@ -654,7 +654,7 @@ ul.info li {
   content: "";
   position: absolute;
   right: 0px;
-  background: url(../img/down-arrow.png) no-repeat !important;
+  background: url(/img/down-arrow.png) no-repeat !important;
   width: 7px;
   left: inherit;
   height: 5px;
@@ -667,7 +667,7 @@ ul.info li {
   content: "";
   position: absolute;
   right: 0px;
-  background: url(../img/down-arrow.png) no-repeat !important;
+  background: url(/img/down-arrow.png) no-repeat !important;
   width: 7px;
   left: inherit;
   height: 5px;
@@ -789,14 +789,14 @@ ul.info li {
       content: "";
       display: inline-block;
       width: 13px;
-      background: url(../img/vec.svg) no-repeat center center;
+      background: url(/img/vec.svg) no-repeat center center;
       height: 13px;
       margin-right: 18px; }
     .about h2:after {
       content: "";
       display: inline-block;
       width: 13px;
-      background: url(../img/vec.svg) no-repeat center center;
+      background: url(/img/vec.svg) no-repeat center center;
       height: 13px;
       margin-left: 18px; }
   .about__title {
@@ -925,7 +925,7 @@ ul.info li {
       margin-right: 12px;
       border-radius: 0px; }
     .order__flex .custom-checkbox:checked + label::before {
-      background: url(../img/check.svg) no-repeat center center; }
+      background: url(/img/check.svg) no-repeat center center; }
   .order__content {
     width: 100%;
     max-width: 530px; }
@@ -1021,6 +1021,9 @@ ul.info li {
 .menu-trigger {
   display: none; }
 
+.about .wow {
+  visibility: hidden; }
+
 @media screen and (max-width: 1600px) {
   .container {
     max-width: 1400px; }
@@ -1058,9 +1061,9 @@ ul.info li {
     width: 24px;
     height: 24px;
     display: block;
-    background: url(../img/bur1.svg) no-repeat center center; }
+    background: url(/img/bur1.svg) no-repeat center center; }
     .menu-trigger.active {
-      background: url(../img/bur2.svg) no-repeat center center; }
+      background: url(/img/bur2.svg) no-repeat center center; }
   .nav__list {
     display: none;
     position: absolute;
@@ -1141,11 +1144,11 @@ ul.info li {
     font-size: 24px;
     padding: 0 30px; }
   .footer__pic {
-    width: 130%;
+    width: 100%;
     margin-top: 40px;
     height: 300px;
     object-fit: cover;
-    left: -135px;
+    left: 0;
     position: relative; } }
 
 @media (max-width: 991px) {
@@ -1320,7 +1323,5 @@ ul.info li {
     margin: 40px 0 9px;
     width: 100%;
     max-width: 324px; }
-  .footer__pic {
-    left: -79px; }
   .order__flex {
     margin-top: -2px; } }
